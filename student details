@@ -1,0 +1,10 @@
+sno=int(input('enter sno:'))
+sname=input('enter sname:')
+group=input('enter student group:')
+s1=int(input('enter python marks:'))
+s2=int(input('enter os marks:'))
+s3=int(input('enter ds marks:'))
+if(s1>=40 and s2>=40 and s3>=40):
+  print('pass')
+else:
+    print('fail')
